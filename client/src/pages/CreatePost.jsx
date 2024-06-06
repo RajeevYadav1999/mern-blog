@@ -11,7 +11,7 @@ import { app } from '../firebase';
 import { useState } from 'react';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
 
 export default function CreatePost() {
   const [file, setFile] = useState(null);
@@ -106,6 +106,7 @@ export default function CreatePost() {
             <option value='javascript'>JavaScript</option>
             <option value='reactjs'>React.js</option>
             <option value='nextjs'>Next.js</option>
+            <option value='nextjs'>Node.js</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
